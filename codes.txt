@@ -1,0 +1,15 @@
+<a href="https://google.com">Google</a> ဒီစာမျက်နှာမှာပဲပွင့်
+<a href="https://google.com" target="-blank">Facebook</a> နောက်ထပ်စာမျက်နှာမှာပွင့်သွားတယ်
+<a href="https://google.com" target="_self">Google self</a> ဒီစာမျက်နှာမှာပဲပွင့်
+<a href="https://google.com" target="_parent">Google Parent</a> domain မချိန်းပဲ Pop Up တက်လာ
+<a href="https://google.com" target="_top">Google top</a> address Bar အောက်မှာ pop up ပေါ်လာ
+
+<a href="tel:09402593093">Call Now</a> ဖုန်းခေါ်
+<a href="mailto:address">Mail</a><br>
+<a href="skype:skypeid">Skype</a>
+
+<img src="landscape.jpg" width="1200px" height="600px"></img> Image Tag
+<img src="landscape.jpg" width="1200px" height="600px" alt="japan"> ၎င်းက googleမှာ ရှာတဲ့အခါ သက်ဆိုင်ရာကိုပြပေးနိုင်အော်င altကို သုံးနိုင်သည်
+
+
+694 573 9871
