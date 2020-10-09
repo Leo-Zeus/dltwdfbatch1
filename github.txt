@@ -1,0 +1,113 @@
+git --version
+git config --global user.name "Zarni Myo Swe"
+git config user.name
+git config --global user.email "2011aungzarni@gmail.com"
+git config user.email
+
+
+
+Mi@DESKTOP-9NG0ANB MINGW64 ~/Documents/dltwdfbatch1
+$ git init
+Initialized empty Git repository in C:/Users/Mi/Documents/dltwdfbatch1/.git/
+
+Mi@DESKTOP-9NG0ANB MINGW64 ~/Documents/dltwdfbatch1 (master)
+$ git remote add origin
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+Mi@DESKTOP-9NG0ANB MINGW64 ~/Documents/dltwdfbatch1 (master)
+$ git remote add origin git@github.com:Leo-Zeus/dltwdfbatch1.git
+
+Mi@DESKTOP-9NG0ANB MINGW64 ~/Documents/dltwdfbatch1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Homework2.html
+        Img/
+        absolutepath.html
+        codes.txt
+        headlingtag.html
+        homework.html
+        horizontaltag.html
+        imagetag.html
+        paragraphtag.html
+        tabletag.html
+        unorderlisttag.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Mi@DESKTOP-9NG0ANB MINGW64 ~/Documents/dltwdfbatch1 (master)
+$ git add -A
+
+Mi@DESKTOP-9NG0ANB MINGW64 ~/Documents/dltwdfbatch1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Homework2.html
+        new file:   Img/avator/landscape.jpg
+        new file:   absolutepath.html
+        new file:   codes.txt
+        new file:   headlingtag.html
+        new file:   homework.html
+        new file:   horizontaltag.html
+        new file:   imagetag.html
+        new file:   paragraphtag.html
+        new file:   tabletag.html
+        new file:   unorderlisttag.html
+
+
+Mi@DESKTOP-9NG0ANB MINGW64 ~/Documents/dltwdfbatch1 (master)
+$ git commit -m "My First Project"
+[master (root-commit) 59efe0c] My First Project
+ 11 files changed, 359 insertions(+)
+ create mode 100644 Homework2.html
+ create mode 100644 Img/avator/landscape.jpg
+ create mode 100644 absolutepath.html
+ create mode 100644 codes.txt
+ create mode 100644 headlingtag.html
+ create mode 100644 homework.html
+ create mode 100644 horizontaltag.html
+ create mode 100644 imagetag.html
+ create mode 100644 paragraphtag.html
+ create mode 100644 tabletag.html
+ create mode 100644 unorderlisttag.html
+
+Mi@DESKTOP-9NG0ANB MINGW64 ~/Documents/dltwdfbatch1 (master)
+$ git push -u origin master
+The authenticity of host 'github.com (13.250.177.223)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? y
+Please type 'yes', 'no' or the fingerprint: yes
+Warning: Permanently added 'github.com,13.250.177.223' (RSA) to the list of known hosts.
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (15/15), 599.82 KiB | 1.97 MiB/s, done.
+Total 15 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To github.com:Leo-Zeus/dltwdfbatch1.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Mi@DESKTOP-9NG0ANB MINGW64 ~/Documents/dltwdfbatch1 (master)
+$
+
+git push -u origin master --force
