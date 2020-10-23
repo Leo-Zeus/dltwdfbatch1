@@ -3,8 +3,8 @@
 	<title>Form Tag</title>
 </head>
 <body>
-	<!-- disable / required / readonly / autofocus / selected-->
-	<div>
+	<!-- disable / required / readonly / autofocus / multiple / checked /  selected -->
+	<!-- <div>
 		<audio src="mp3/sound.mp3" controls loop autoplay></audio>
 		<audio src="https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_700KB.mp3" controls loop></audio>
 	</div>
@@ -15,10 +15,10 @@
 	<div>
 		<iframe width="853" height="480" src="https://www.youtube.com/embed/Ph44l91A1Mo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div>
-	<div>
+	<div> -->
 		<fieldset>
 		<legend>This is Sample Form &copy; &para; &#x000FF;</legend>
-		<form action="#" method="POST">
+		<form action="#" method="POST" enctype="multipart/form-data">
 		<label for="firstname">First Nmae</label>
 		<input type="text" name="firstname" id="firstname" class="" disabled >
 		<br>
@@ -45,7 +45,7 @@
 		<label for="color">Choose Your Fav Color</label>
 		<input type="checkbox" name="color" id="color" class="" value="red">Red
 		<input type="checkbox" name="color" id="color" class="" value="red">Black
-		<input type="checkbox" name="color" id="color" class="" value="red">Blue
+		<input type="checkbox" name="color" id="color" class="" value="red" checked>Blue
 		<input type="checkbox" name="color" id="color" class="" value="red">Green
 		<br>
 		<br>
@@ -81,6 +81,14 @@
 		<input type="datetime-local" name="datetime" id="datetime" class="">
 		<br>
 		<br>
+		<label for="nrcfront">NRC front</label>
+		<input type="file" name="nrcfront" id="nrcfront" class="">
+		<label for="nrcback">NRC Back</label>
+		<input type="file" name="nrcback" id="nrcback" class="">
+		<label for="attach">Attachment</label>
+		<input type="file" name="attach" id="attach" class="" multiple>
+		<br>
+		<br>
 		<input type="button" name="cancel" id="cancel" class="" value="Cancel">
 		<input type="reset" name="reset" id="reset" class="" value="Reset">
 		<button type="submit" name="submit" id="submit" class="">Submit</button>
@@ -95,6 +103,7 @@
 	
 </body>
 <footer>
+	<img src="img/avator/election.jpg">
 	
 </footer>
 </html>

@@ -1,0 +1,28 @@
+
+/*Element Selector*/
+/*Single Selector*/
+p{
+	color:blue;
+	font-size:30px;
+
+}
+/*Group Selector*/
+h1,h2,h3{
+	color:green;
+}
+
+/*ID Selector*/
+#first{
+	color:red;
+	font-size:20px;
+}
+
+/*Class Selector*/
+.first{
+	color:green;
+	font-size:50px;
+}
+.second{
+	color:blue;
+	font-size:40px;
+}

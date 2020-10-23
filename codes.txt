@@ -14,3 +14,11 @@
 
 694 573 9871
 passdlt1
+
+
+<form action="#" method="POST" enctype="multipart/form-data">  --------->Single File upload
+<label for="nrcfile">NRC File</label>
+		<input type="file" name="nrcfile" id="nrcfile" class="">
+
+<label for="attach">Attachment</label>
+		<input type="file" name="attach" id="attach" class="" multiple> -----> Multiple file upload

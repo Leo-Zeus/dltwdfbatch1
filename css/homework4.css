@@ -1,0 +1,46 @@
+body{
+	background-image:url(../img/touse.jpg);
+}
+h1{
+	margin:10px;
+	color:white;
+	text-shadow:-7px -7px 5px black;
+	text-align:center;
+}
+.head{
+	text-align:center;
+	text-shadow:-7px -7px 5px black;
+	margin:5px auto;
+}
+.content{
+	border:2px dotted white;
+	color:white;
+	width:300px;
+	height:250px;
+	margin:180px 1000px;
+	/*background-color:rgba(229,176,127,0.15);*/
+}
+.textshadow{
+	text-shadow:-6px -5px 3px black;
+}
+.textshadow{
+	text-shadow:-6px -5px 3px black;
+	margin:0 0 0 10px;
+}
+
+p{
+	text-align:justify;
+	color:white;
+}
+.formelement{
+	text-align:right;
+	line-height:5px;
+	margin:0 15px;
+}
+
+.foot{
+	color:blue;
+	background-color:white;
+	width:100%;
+	height:25px;
+	text-align:right;
